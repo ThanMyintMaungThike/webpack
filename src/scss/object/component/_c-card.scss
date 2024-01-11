@@ -1,0 +1,103 @@
+.c-card {
+    background-color: $backgroundColor;
+    padding-bottom: 70px;
+    &__title {
+    width: 750px;
+    text-align: center;
+    padding: 70px 0 70px 0;
+    margin: auto;
+    h3 {
+        font-family: 'Lato','sans-serif';
+        font-size: 35px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    p {
+        font-family: 'poppins', 'sans-serif';
+        font-size: 16px;
+        font-weight: 300;
+        opacity: 0.5;
+    }
+    &--video {
+        width: 100%;
+        height: 600px;
+        background-image: url('../img/bg2.png');
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        position: relative;
+        padding-bottom: 0;
+    }
+    &--txt {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        color: $whiteColor;
+        p {
+            opacity: 1;
+        }
+        img {
+            position: absolute;
+            top: 33%;
+        }
+    }
+    &--feature {
+        padding: 0;
+        p {
+            opacity: 1;
+        }
+    }
+
+}
+    &__bloc {
+        width: 1170px;
+        // border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px 0px;
+
+    }
+    &__inner {
+        width: 300px;
+        padding: 50px 20px;
+        background: $whiteColor;
+        margin: auto;
+        &--img {
+            width: 80px;
+            height: 80px;
+            line-height: 100px;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 30px;
+            a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                border-radius: 50px;
+                background-color: $brandColor;
+            }
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        &--txt {
+            width: 270px;
+            text-align: center;
+            margin: auto;
+            h4 {
+                margin-bottom: 30px;
+                font-family: 'Lato', 'sans-serif';
+                font-size: 18px;
+                font-weight: 500;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                font-family: 'poppins', 'sans-serif';
+            }
+        }
+    }
+}

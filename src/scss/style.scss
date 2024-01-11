@@ -1,6 +1,21 @@
 /* normalize.css
 ------------------------ */
 @import 'normalize.css/normalize.css';
+@import 'foundation/base';
+@import 'foundation/font';
+@import 'foundation/normalize';
+@import 'foundation/reset';
+@import 'foundation/setting';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout';
+@import 'object/component/c-card';
+@import 'object/component/cbtn';
+@import 'object/project/p-block';
+@import 'object/project/mainvisual';
+
+
+
 
 /* ==========================================================================
   Foundation
@@ -17,6 +32,6 @@
 /* ==========================================================================
   Component
 ========================================================================== */
-h1 {
-  color: #f00;
-}
+// h1 {
+//   color: #f00;
+// }

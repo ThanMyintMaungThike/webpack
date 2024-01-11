@@ -1,0 +1,12 @@
+footer {
+    background: $brandColor;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    font-family: 'poppins','sans-serif';
+    font-weight: 400;
+    color: $whiteColor;
+    address {
+        opacity: 0.5;
+    }
+}

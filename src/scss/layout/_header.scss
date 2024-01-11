@@ -1,0 +1,36 @@
+.l-header{
+    position: fixed;
+    width: 100%;
+    &__navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__logo h1 {
+        font-weight: 800;
+        font-size: 30px;
+        font-family: 'lato', 'sans-serif';
+        color: $whiteColor;
+    }
+    &__menu {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0 40px;
+            li {
+                a {
+                    text-decoration: none;
+                    color: $whiteColor;
+                    font-family: 'poppins', 'sans-serif';
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
